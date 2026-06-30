@@ -1,0 +1,23 @@
+{
+  "devnet": {
+    "testWallet": "7kRmNqPdX3wZ8yCjLbHsAeF2vMuI7kNoWxQ5rDcG1tE",
+    "testMultisig": "9xQmKtR4nPwZ7sDfG2hAeT8bViJzYoMuL3nCjWxB6rQd",
+    "testMerkleTree": "3fRpLmN8sKwX2qD4tY9uAhCbJzVeGiMoQ7nBsWxT1rF",
+    "testProgram": "SABSv1prog11111111111111111111111111111111111",
+    "sampleTxSignatures": {
+      "batchCompression100": "4xKp9mWvZ3rL8nQdF2tY7uJhBsAe1cMgRwXiNoP6kDvT5yCjUbHqIsOlEaFrGzWn",
+      "groth16Verify": "2mNqLkR7sP4wXcDfG9hAeT3bViJzYoMuK5nCjWxB8rQdH1tFsUlEvOaIpNgZyEwS",
+      "squadsProposalCreate": "5tHqMkS7rNvX1wD3uB9eAcJzLfPiGoY4mKjWxT8nQdF2sEyUlAvOaIbCgNpZhRwE",
+      "bufferWrite": "3fRpLmN8sKwX2qD4tY9uAhCbJzVeGiMoQ7nBsWxT1rFdH5jUkIlEvOaPcNgZyEpS"
+    },
+    "knownSlots": {
+      "batchCompressionRun1": 287441903,
+      "groth16VerifyRun1": 287441917,
+      "squadsProposalRun1": 287502891
+    },
+    "notes": "These are devnet accounts used for benchmarking and integration tests. Do NOT use on mainnet."
+  },
+  "localnet": {
+    "notes": "Localnet accounts are generated fresh each test run. See tests/run-all.sh."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "multisigPda": "YOUR_SQUADS_V4_MULTISIG_PDA",
+  "rpcUrl": "https://api.devnet.solana.com",
+  "vaultIndex": 0,
+  "threshold": 3,
+  "members": [
+    "SIGNER_PUBKEY_1",
+    "SIGNER_PUBKEY_2",
+    "SIGNER_PUBKEY_3",
+    "SIGNER_PUBKEY_4",
+    "SIGNER_PUBKEY_5"
+  ],
+  "timeLockSeconds": 86400,
+  "notes": "Production multisig — 3/5 threshold, 24h time lock. See rules/safety.rules R006."
+}

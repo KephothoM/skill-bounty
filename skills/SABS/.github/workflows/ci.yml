@@ -1,0 +1,11 @@
+name: Skill Validation
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check routing table
+        run: grep -q "Routing Table" skill/SKILL.md
+      - name: Lint markdown
+        uses: avto-dev/markdown-lint@v1

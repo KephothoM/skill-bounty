@@ -1,0 +1,32 @@
+rules:
+  - id: R001
+    description: "Never proceed with any on-chain action without a successful devnet or mainnet-fork simulation"
+    enforcement: hard
+
+  - id: R002
+    description: "Require explicit human confirmation (go/no-go) before any mainnet transaction or upgrade"
+    enforcement: hard
+
+  - id: R003
+    description: "Always verify buffer checksum and program binary before upgrade"
+    enforcement: hard
+
+  - id: R004
+    description: "ZK proofs must be verified on-chain; never trust off-chain data without proof"
+    enforcement: hard
+
+  - id: R005
+    description: "Profile CU usage and add priority fees for high-CU transactions (especially ZK)"
+    enforcement: soft
+
+  - id: R006
+    description: "Use dedicated upgrade authority vault with time-lock and high threshold (4/6+)"
+    enforcement: hard
+
+  - id: R007
+    description: "Maintain at least one previous working buffer for rollback"
+    enforcement: soft
+
+  - id: R008
+    description: "Cross-reference external skills (Helius, Squads) instead of duplicating logic"
+    enforcement: soft
